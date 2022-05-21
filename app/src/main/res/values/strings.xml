@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWorks</string>
+
+    <string name="deskripsi">Halo nama saya Agung Segara Rizki, saya lahir di kota Bandung pada tanggal 9 Juni 2001, saya adalah anak ke-3 dari 3 bersaudara,
+    saya adalah mahasiswa aktif dari kampus swasta ternama yaitu Univesitas Komputer Indonesia, saya mengambil jurusan Teknik Informatika. Riwayat pendidikan
+    saya yaitu saya pernah sekolah SD di SDN 247 Sukapura kota Bandung, lalu  SMP saya di SMPN 45 kota Bandung, dan SMK di SMK Igasar Pindad kota Bandung.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

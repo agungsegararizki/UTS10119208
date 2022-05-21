@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="12dp">
+
+    <ImageView
+        android:id="@+id/imageViewFriend"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/ava_ayang"/>
+    <TextView
+        android:id="@+id/textViewFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Putri Indah Cahyani"
+        style="@style/teksstyle"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

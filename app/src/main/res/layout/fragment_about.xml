@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.profile.AboutFragment"
+    android:orientation="vertical"
+    android:background="@drawable/brdr_daily">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/logo_about"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/logo_pix" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_desc"
+        style="@style/teksstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="My Work's"
+        android:textColor="@color/seabrook"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_version"
+        android:layout_below="@id/txt_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        style="@style/teksstyle"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_about"
+        style="@style/teksstyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_version"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="100dp"
+        android:text="My Work's adalah aplikasi yang dibuat oleh Agung Segara Rizki dengan NIM 10119208 dari kelas IF-5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+</RelativeLayout>

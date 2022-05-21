@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalkthroughActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="20dp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/titik"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_below="@id/viewPage"
+        android:layout_marginTop="35dp"
+        app:ci_drawable="@drawable/unpage_view"
+        app:ci_drawable_unselected="@drawable/page_view"
+        app:ci_gravity="center"
+        app:ci_height="5dp"
+        app:ci_orientation="horizontal"
+        app:ci_width="5dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_page1"
+        style="@style/btnstyle_bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/titik"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:elevation="2dp"
+        android:onClick="mulai"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</RelativeLayout>

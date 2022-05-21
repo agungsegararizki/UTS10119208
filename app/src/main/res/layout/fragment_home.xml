@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    android:layout_marginBottom="55dp"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ava"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ava_profile"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_nama_home"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_marginTop="12dp"
+            android:text="AGUNG SEGARA RIZKI"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txt_nama_home"
+            android:layout_marginTop="12dp"
+            android:background="@color/abujahal"
+            android:visibility="visible" />
+
+
+
+        <TextView
+            android:id="@+id/judul_desc"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/separator"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_desc"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/judul_desc"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="24dp"
+            android:justificationMode="inter_word"
+            android:text="Halo nama saya Agung Segara Rizki, saya lahir di kota Bandung pada tanggal 9 Juni 2001, saya adalah anak ke-3 dari 3 bersaudara, saya adalah mahasiswa aktif dari kampus swasta ternama yaitu Univesitas Komputer Indonesia, saya mengambil jurusan Teknik Informatika. Riwayat pendidikan saya yaitu saya pernah sekolah SD di SDN 247 Sukapura kota Bandung, lalu  SMP saya di SMPN 45 kota Bandung, dan SMK di SMK Igasar Pindad kota Bandung."
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/judul_inter"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_desc"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Interest"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_inter_hobby"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/judul_inter"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:text="Hobby"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_hobby_1"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_inter_hobby"
+            android:layout_marginLeft="32dp"
+            android:text="- Bermain Game"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/isi_hobby_2"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_hobby_1"
+            android:layout_marginLeft="32dp"
+            android:text="- Travelling"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/isi_hobby_3"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_hobby_2"
+            android:layout_marginLeft="32dp"
+            android:text="- Mendengarkan Musik"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/isi_hobby_4"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_hobby_3"
+            android:layout_marginLeft="32dp"
+            android:text="- Berenang"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/isi_hobby_5"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_hobby_4"
+            android:layout_marginLeft="32dp"
+            android:text="- Otomotif"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/isi_inter_future"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_hobby_5"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:text="Future Goals"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_future_1"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_inter_future"
+            android:layout_marginLeft="32dp"
+            android:text="- Menjadi Designer Grafis"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/isi_future_2"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_future_1"
+            android:layout_marginLeft="32dp"
+            android:text="- Menjadi UI/UX Designer"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/isi_future_3"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_future_2"
+            android:layout_marginLeft="32dp"
+            android:text="- Mempunyai Usaha yang Maju"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/isi_inter_love"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_future_3"
+            android:layout_marginLeft="24dp"
+            android:text="Love Interest"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_love"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_inter_love"
+            android:layout_marginLeft="32dp"
+            android:text="- Putri Indah Cahyani"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/isi_inter_makes"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_love"
+            android:layout_marginLeft="24dp"
+            android:text="Makes"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_makes"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_inter_makes"
+            android:layout_marginLeft="32dp"
+            android:text="- Makanan Pedas"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/isi_inter_mikes"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_makes"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:text="Mikes"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/isi_mikes"
+            style="@style/teksstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isi_inter_mikes"
+            android:layout_marginLeft="32dp"
+            android:text="- Minuman Susu"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+
+</ScrollView>
