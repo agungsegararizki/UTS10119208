@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/brdr_btn_gallery.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/brdr_daily.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/brdr_media.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/brdr_walk.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/btn_brdr.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/btn_contact.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/header.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/page_view.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/transparent_background.xml" value="0.309" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/drawable/unpage_view.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/font/font.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/activity_splash.xml" value="0.33106884057971014" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/activity_walkthrough.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_about.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_contact.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_daily.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_find.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_friend.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_gallery.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_home.xml" value="0.33106884057971014" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_media.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_music.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_my.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_profile.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/fragment_video.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/gallery_item_list.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/item_friend_list.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/item_layout.xml" value="0.33106884057971014" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/item_list.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/item_music_list.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/list_item.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/layout/video_item_list.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/menu/bottom_nav_menu.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApps10119208/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.246" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
